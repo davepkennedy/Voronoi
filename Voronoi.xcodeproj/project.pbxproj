@@ -12,6 +12,7 @@
 		55D034E71B8F9F750008BC7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D034E61B8F9F750008BC7E /* Images.xcassets */; };
 		55D034EA1B8F9F760008BC7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D034E81B8F9F760008BC7E /* MainMenu.xib */; };
 		55D034F61B8F9F760008BC7E /* VoronoiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D034F51B8F9F760008BC7E /* VoronoiTests.m */; };
+		55D0350C1B8FA0950008BC7E /* VoronoiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0350B1B8FA0950008BC7E /* VoronoiView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		55D034EF1B8F9F760008BC7E /* VoronoiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoronoiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D034F41B8F9F760008BC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55D034F51B8F9F760008BC7E /* VoronoiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoronoiTests.m; sourceTree = "<group>"; };
+		55D0350A1B8FA0950008BC7E /* VoronoiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiView.h; sourceTree = "<group>"; };
+		55D0350B1B8FA0950008BC7E /* VoronoiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				55D034E61B8F9F750008BC7E /* Images.xcassets */,
 				55D034E81B8F9F760008BC7E /* MainMenu.xib */,
 				55D034DF1B8F9F750008BC7E /* Supporting Files */,
+				55D0350A1B8FA0950008BC7E /* VoronoiView.h */,
+				55D0350B1B8FA0950008BC7E /* VoronoiView.m */,
 			);
 			path = Voronoi;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D034E51B8F9F750008BC7E /* main.m in Sources */,
+				55D0350C1B8FA0950008BC7E /* VoronoiView.m in Sources */,
 				55D034E31B8F9F750008BC7E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
